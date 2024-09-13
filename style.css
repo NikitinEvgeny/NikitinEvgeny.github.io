@@ -4,21 +4,25 @@ body{
 }
 
 
+
+
 header {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 400px;
-    background: url('https://p0.piqsels.com/preview/14/432/956/laptop-computer-dark-room.jpg') bottom no-repeat;
+    background: url('https://t3.ftcdn.net/jpg/02/24/45/50/240_F_224455061_dT0DcT1EtRSooYTFGioR0Mye2EFndO57.jpg') bottom no-repeat;
    background-size: cover;
 
 }
 
-h1 {
+ h1 {
     color: rgb(164, 245, 241);
     font-size: 6rem;
     font-family: 'Times New Roman', Times, serif;
 }
+
+
 
 footer{
     padding-top: 20px;
@@ -67,19 +71,26 @@ article a:hover{
     color:#0085a1;
 }
 
+
+
 article h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 5px;
 }
 
 
-.article {
-    color: rgb(134,142,150);
-    margin-bottom: 5px;
-}
-
 article img {
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
+
+section article:nth-child(even) {
+    background-color: #bdebe8
+}
+
+.namber::before {
+    content: "New ";
+}
+
+
